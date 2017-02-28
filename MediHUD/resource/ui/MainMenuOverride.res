@@ -1875,7 +1875,7 @@
             "use_proportional_insets" "1"
             "font"          "CerbeticaBold32"
             "textAlignment" "center"
-            "labelText"     "medHUD"
+            "labelText"     "MediHUD"
             "dulltext"      "0"
             "brighttext"    "0"
             "default"       "1"

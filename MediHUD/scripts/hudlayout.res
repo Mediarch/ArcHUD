@@ -4,38 +4,6 @@
     
     //MEASURES ENEMY MEDIC'S UBER
 
-	"Heart"
-	{
-		"controlName"   "CExLabel"
-		"fieldName"     "Heart"
-		"visible"       "1"
-		"enabled"       "1"
-		"zpos"          "1"
-		"xpos"          "c-25"
-		"ypos"          "c-25"
-		"wide"          "50"
-		"tall"          "50"
-		"font"          "size:14,outline:on"
-		"labelText"     "y"
-		"textAlignment" "center"
-		"fgcolor"       "173 255 47 255"
-	}
-	"HeartCenter"
-	{
-		"controlName"   "CExLabel"
-		"fieldName"     "HeartCenter"
-		"visible"       "1"
-		"enabled"       "1"
-		"zpos"          "2"
-		"xpos"          "c-25"
-		"ypos"          "c-25"
-		"wide"          "50"
-		"tall"          "50"
-		"font"          "size:14,outline:on"
-		"labelText"     "l"
-		"textAlignment" "center"
-		"fgcolor"       "173 255 47 255"
-	}
     Spookmaster
     {
         "controlName"   "CExLabel"
@@ -126,8 +94,8 @@
     {
         "controlName"   "CExLabel"
         "fieldName"     "BasicCrossSmall"
-        "visible"       "0"
-        "enabled"       "0"
+        "visible"       "1"
+        "enabled"       "1"
         "zpos"          "2"
 
         "xpos"          "c-101"
@@ -135,7 +103,7 @@
         "wide"          "200"
         "tall"          "200"
 
-        //"font"            "CrosshairsOutline18"
+        "font"            "CrosshairsOutline18"
         "font"          "Crosshairs18"
         "labelText"     "2"
         "textAlignment" "center"    
@@ -168,8 +136,8 @@
     {
         "controlName"   "CExLabel"
         "fieldName"     "BasicDot"
-        "visible"       "0"
-        "enabled"       "0"
+        "visible"       "1"
+        "enabled"       "1"
         "zpos"          "-2"
 
         "xpos"          "c-107"
@@ -197,7 +165,7 @@
         "wide"          "207"
         "tall"          "207"
 
-        //"font"        "CrosshairsOutline20"
+        "font"        "CrosshairsOutline20"
         "font"          "Crosshairs32"
         "labelText"     "3"
         "textAlignment" "center"    
@@ -302,12 +270,12 @@
         "wide"          "200"
         "tall"          "200"
 
-        //"font"            "CrosshairsOutline34"
+        "font"            "CrosshairsOutline34"
         "font"          "Crosshairs34"
         "labelText"     "f"
         "textAlignment" "center"    
         
-        "fgcolor"       "0 0 0 0"
+        "fgcolor"       "235 226 202 255"
     }
     
     WingsSmall
@@ -323,7 +291,7 @@
         "wide"          "200"
         "tall"          "200"
 
-        //"font"            "CrosshairsOutline34"
+        "font"            "CrosshairsOutline34"
         "font"          "Crosshairs34"
         "labelText"     "g"
         "textAlignment" "center"    
@@ -1334,11 +1302,11 @@
         
         "TeamBlue"      "HUDBlueTeamSolid"
         "TeamRed"       "HUDRedTeamSolid"
-        "IconColor"     "ColorYellow"
+        "IconColor"     "HudWhite"
         "LocalPlayerColor"  "HUDBlack"
 
-        "BaseBackgroundColor"   "25 25 25 255"      [$WIN32]
-        "LocalBackgroundColor"  "195 195 200 255"
+		"BaseBackgroundColor"	"45 45 45 125"		[$WIN32]
+		"LocalBackgroundColor"	"225 225 225 200"	[$WIN32]
     }
 
     HudVehicle
