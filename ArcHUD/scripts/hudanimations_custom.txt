@@ -458,12 +458,3 @@ event HudMedicChargedStop
     Animate ChargeMeter3            FgColor     "Uber Bar Color"       Linear 0.0 0.2
     Animate ChargeMeter4            FgColor     "Uber Bar Color"       Linear 0.0 0.2
 }
-
-//===========================================
-event DamagedPlayer
-{
-    Animate Basiccrosssmall FgColor "255 255 255 255" Linear 0.0 0.1		//change "Basiccrosssmall" to whatever crosshair you use
-    Animate Basiccrosssmall FgColor "0 0 0 0" Linear 0.2 0.200001			//Ditto		
-}
-
-//===========================================
