@@ -1,29 +1,8 @@
 "Resource/HudLayout.res"
 {
     //crosshairs
-    
-    //MEASURES ENEMY MEDIC'S UBER
-
-    Spookmaster
-    {
-        "controlName"   "CExLabel"
-        "fieldName"     "Spookmaster"
-        "font"          "CerbeticaBold44"
-        "visible"       "0"
-        "enabled"       "0"
-        "zpos"          "2"
-
-        "xpos"          "c-100"
-        "ypos"          "c-102"
-        "ypos"          "c-102"
-        "wide"          "201"
-        "tall"          "200"
-
-        "labelText"     "0 0"
-        "textAlignment" "center"    
-        
-        "fgcolor"       "0 0 0 0"
-    }
+	//set visible and enable to 1
+	//you can remove the two slashes in front of the outline font if you want. they are kinda pixelated though
     
     xHairCircle
     {
@@ -39,14 +18,14 @@
         "wide"          "201"
         "tall"          "200"
 
-        //"font"        "xHairCircleOutline"
+        //"font"          "xHairCircleOutline"
         "font"          "xHairCircle"
         "labelText"     "o"
         "textAlignment" "center"    
         
-        "fgcolor"       "0 0 0 0"
+        "fgcolor"       "235 226 202 255"
     }
-    
+	
     ScatterSpread
     {
         "controlName"   "CExLabel"
@@ -60,7 +39,7 @@
         "wide"          "200"
         "tall"          "200"
 
-        //"font"        "CrosshairsOutline32"
+        //"font"          "CrosshairsOutline32"
         "font"          "Crosshairs32"
         "labelText"     "0"
         "textAlignment" "center"
@@ -82,7 +61,7 @@
         "wide"       "200"
         "tall"       "200"
 
-        //"font"        "CrosshairsOutline26"
+        "font"          "CrosshairsOutline26"
         "font"          "Crosshairs26"
         "labelText"     "2"
         "textAlignment"     "center"    
@@ -103,7 +82,7 @@
         "wide"          "200"
         "tall"          "200"
 
-        "font"            "CrosshairsOutline18"
+        "font"          "CrosshairsOutline18"
         "font"          "Crosshairs18"
         "labelText"     "2"
         "textAlignment" "center"    
@@ -124,38 +103,18 @@
         "wide"          "200"
         "tall"          "200"
 
-        //"font"        "CrosshairsOutline32"
+        "font"          "CrosshairsOutline32"
         "font"          "Crosshairs32"
         "labelText"     "2"
         "textAlignment" "center"    
         
         "fgcolor"       "235 226 202 255"
     }
-    
-    BasicDot
+	
+	BasicDot
     {
         "controlName"   "CExLabel"
         "fieldName"     "BasicDot"
-        "visible"       "1"
-        "enabled"       "1"
-        "zpos"          "-2"
-
-        "xpos"          "c-107"
-        "ypos"          "c-103"
-        "wide"          "207"
-        "tall"          "207"
-
-        //"font"        "CrosshairsOutline20"
-        "font"          "Crosshairs32"
-        "labelText"     "3"
-        "textAlignment" "center"    
-        
-        "fgcolor"       "0 0 0 0"
-    }
-    BasicDotOut
-    {
-        "controlName"   "CExLabel"
-        "fieldName"     "BasicDotOut"
         "visible"       "0"
         "enabled"       "0"
         "zpos"          "-2"
@@ -165,12 +124,12 @@
         "wide"          "207"
         "tall"          "207"
 
-        "font"        "CrosshairsOutline20"
+        //"font"          "CrosshairsOutline20"
         "font"          "Crosshairs32"
         "labelText"     "3"
         "textAlignment" "center"    
         
-        "fgcolor"       "0 0 0 0"
+        "fgcolor"       "235 226 202 255"
     }
 
     CircleDot
@@ -186,7 +145,7 @@
         "wide"          "200"
         "tall"          "200"
 
-        //"font"            "CrosshairsOutline34"
+        //"font"          "CrosshairsOutline34"
         "font"          "Crosshairs34"
         "labelText"     "8"
         "textAlignment" "center"    
@@ -207,7 +166,7 @@
         "wide"          "200"
         "tall"          "200"
 
-        //"font"            "CrosshairsOutline34"
+        //"font"          "CrosshairsOutline34"
         "font"          "Crosshairs34"
         "labelText"     "9"
         "textAlignment" "center"    
@@ -228,7 +187,7 @@
         "wide"          "200"
         "tall"          "200"
 
-        //"font"            "CrosshairsOutline34"
+        //"font"          "CrosshairsOutline34"
         "font"          "Crosshairs34"
         "labelText"     "c"
         "textAlignment" "center"    
@@ -249,7 +208,7 @@
         "wide"          "200"
         "tall"          "200"
 
-        //"font"            "CrosshairsOutline34"
+        //"font"          "CrosshairsOutline34"
         "font"          "Crosshairs34"
         "labelText"     "d"
         "textAlignment" "center"    
@@ -270,7 +229,7 @@
         "wide"          "200"
         "tall"          "200"
 
-        "font"            "CrosshairsOutline34"
+        //"font"          "CrosshairsOutline34"
         "font"          "Crosshairs34"
         "labelText"     "f"
         "textAlignment" "center"    
@@ -291,7 +250,7 @@
         "wide"          "200"
         "tall"          "200"
 
-        "font"            "CrosshairsOutline34"
+        //"font"          "CrosshairsOutline34"
         "font"          "Crosshairs34"
         "labelText"     "g"
         "textAlignment" "center"    
@@ -333,7 +292,7 @@
         "wide"          "199"
         "tall"          "200"
 
-        //"font"            "CrosshairsOutline24"
+        "font"          "CrosshairsOutline24"
         "font"          "Crosshairs24"
         "labelText"     "h"
         "textAlignment" "center"    
@@ -354,7 +313,7 @@
         "wide"          "200"
         "tall"          "200"
 
-        //"font"        "SymbolOutline24"
+        "font"          "SymbolOutline24"
         "font"          "Symbol24"
         "labelText"     "+"
         "textAlignment" "center"    
@@ -375,8 +334,7 @@
         "wide"          "200"
         "tall"          "200"
 
-        //"font"        "KonrWingsOutline24"
-
+        //"font"          "KonrWingsOutline24"
         "font"          "KonrWings24"
         "labelText"     "i"
         "textAlignment" "center"    
@@ -932,8 +890,8 @@
         "xpos"          "c-100" 
         "ypos"          "c111"  
         "zpos"          "1"         // draw in front of ammo
-        "wide"          "500"
-        "tall"          "500"
+        "wide"          "0"
+        "tall"          "0"
         "MeterFG"       "White"
         "MeterBG"       "Gray"
     }
@@ -1305,8 +1263,8 @@
         "IconColor"     "HudWhite"
         "LocalPlayerColor"  "HUDBlack"
 
-		"BaseBackgroundColor"	"45 45 45 125"		[$WIN32]
-		"LocalBackgroundColor"	"225 225 225 200"	[$WIN32]
+		"BaseBackgroundColor"	"46 43 42 175"
+		"LocalBackgroundColor"	"245 229 196 200"
     }
 
     HudVehicle
@@ -2155,62 +2113,138 @@
         "tall"          "150"
     }
     
-        "CTFKillStreakNotice"
-    {
-        "fieldName"     "CTFKillStreakNotice"
-        "xpos"          "0"         
-        "ypos"          "0"
-        "wide"          "640"
-        "tall"          "480"
-        "visible"       "1"
-        "enabled"       "1"
-        "bgcolor_override"  "0 0 0 0"
-        "PaintBackgroundType"   "0" // rounded corners
-    }
-    "HudMenuTauntSelection"
-    {
-        "fieldName"     "HudMenuTauntSelection"
-        "visible"       "1"
-        "enabled"       "1"
-        "xpos"          "c-235"
-        "ypos"          "c-85"
-        "wide"          "470"
-        "tall"          "200"
-        "PaintBackgroundType"   "0"
-    }
-    HudSpectatorExtras
-    {
-        "fieldName" "HudSpectatorExtras"
-        "visible" "1"
-        "enabled" "1"
-        "xpos"  "0"
-        "ypos"  "0"
-        "wide"  "f0"
-        "tall"  "f0"
-    }
+	"CTFStreakNotice"
+	{
+		"fieldName"		"CTFStreakNotice"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"640"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"0 0 0 0"
+		"PaintBackgroundType"	"0" // rounded corners
+	}
 
-    MatchSummary
-    {
-        "fieldName" "MatchSummary"
-        "visible" "0"
-        "enabled" "1"
-        "xpos"  "0"
-        "ypos"  "0"
-        "wide"  "f0"
-        "tall"  "f0"
-    }
+	CTFFlagCalloutPanel
+	{
+		"fieldName"		"CTFFlagCalloutPanel"
+		"visible" 		"0"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"40"
+		"tall"	 		"40"
+		"priority"		"40"
+	}
 
-    HudMatchStatus
-    {
-        "fieldName"             "HudMatchStatus"
-        "visible"               "1"
-        "enabled"               "1"
-        "xpos"                  "0"
-        "ypos"                  "0"
-        "zpos"                  "3"
-        "wide"                  "f0"
-        "tall"                  "f0"
-    }
+	"HudMenuTauntSelection"
+	{
+		"fieldName" 	"HudMenuTauntSelection"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-235"
+		"ypos"			"c-85"
+		"wide"			"470"
+		"tall"			"200"
+		"PaintBackgroundType"	"0"
+	}
+
+	"ItemAttributeTracker"
+	{
+		"fieldName" 	"ItemAttributeTracker"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f5"
+		"tall"			"f0"
+		"PaintBackgroundType"	"0"
+	}
+
+	HudMiniGame
+	{
+		"fieldName" "HudMiniGame"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
+	}
+
+	"QuestNotificationPanel"
+	{
+		"fieldName"	"QuestNotificationPanel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
+	"MatchMakingContainer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"MatchMakingContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
+	}
+
+	HudSpectatorExtras
+	{
+		"fieldName" "HudSpectatorExtras"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
+	MatchSummary
+	{
+		"fieldName" "MatchSummary"
+		"visible" "0"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
+	HudMatchStatus
+	{
+		"fieldName"				"HudMatchStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"3"
+		"wide"					"f0"
+		"tall"					"f0"
+	}
+
+	"QueueHUDStatus"
+	{
+		"fieldName"				"QueueHUDStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"rs1-5"
+		"ypos"					"1"
+		"zpos"					"1001"
+		"wide"					"200"
+		"tall"					"18"
+		"proportionaltoparent"	"1"
+		"keyboardinputenabled"	"1"
+		"mouseinputenabled"		"0"
+		"alpha"					"100"
+	}
 }
 
 

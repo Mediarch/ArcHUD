@@ -166,7 +166,7 @@
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatusBleedImage"
-        "xpos"          "100"
+        "xpos"          "0"
         "ypos"          "0"
         "zpos"          "7"
         "wide"          "32"
@@ -179,13 +179,32 @@
 		"pin_to_sibling"		"PlayerStatusAnchor"
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
-    }  
+    }
+
+	"PlayerStatusHookBleedImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHookBleedImage"
+		"xpos"          "0"
+        "ypos"          "0"
+        "zpos"          "7"
+        "wide"          "32"
+        "tall"          "32"
+        "visible"       "1"
+        "enabled"       "1"
+        "scaleImage"    "1" 
+		"image"			"../vgui/bleed_drop_grapple"
+		"fgcolor"		"TanDark"
+		"pin_to_sibling"		"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
+	}
 	
     "PlayerStatusMilkImage"
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatusMilkImage"
-        "xpos"          "100"
+        "xpos"          "0"
         "ypos"          "0"
         "zpos"          "7"
         "wide"          "32"
@@ -223,7 +242,7 @@
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatusMarkedForDeathImage"
-        "xpos"          "100"
+        "xpos"          "0"
         "ypos"          "0"
         "zpos"          "7"
         "wide"          "32"
@@ -242,7 +261,7 @@
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatusMarkedForDeathSilentImage"
-        "xpos"          "100"
+        "xpos"          "0"
         "ypos"          "0"
         "zpos"          "7"
         "wide"          "32"
@@ -261,7 +280,7 @@
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatus_MedicUberBulletResistImage"
-        "xpos"          "100"
+        "xpos"          "0"
         "ypos"          "0"
         "zpos"          "7"
         "wide"          "32"
@@ -280,7 +299,7 @@
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatus_MedicUberBlastResistImage"
-        "xpos"          "100"
+        "xpos"          "0"
         "ypos"          "0"
         "zpos"          "7"
         "wide"          "32"
@@ -299,7 +318,7 @@
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatus_MedicUberFireResistImage"
-        "xpos"          "100"
+        "xpos"          "0"
         "ypos"          "0"
         "zpos"          "7"
         "wide"          "32"
@@ -318,7 +337,7 @@
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatus_MedicSmallBulletResistImage"
-        "xpos"          "100"
+        "xpos"          "0"
         "ypos"          "50"
         "zpos"          "7"
         "wide"          "32"
@@ -337,7 +356,7 @@
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatus_MedicSmallBlastResistImage"
-        "xpos"          "100"
+        "xpos"          "0"
         "ypos"          "50"
         "zpos"          "7"
         "wide"          "32"
@@ -356,7 +375,7 @@
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatus_MedicSmallFireResistImage"
-        "xpos"          "100"
+        "xpos"          "0"
         "ypos"          "50"
         "zpos"          "7"
         "wide"          "32"
@@ -432,7 +451,7 @@
     {
         "ControlName"        "ImagePanel"
         "fieldName"          "PlayerStatus_Parachute"
-        "xpos"               "100"
+        "xpos"               "0"
         "ypos"               "0"
         "zpos"               "7"
         "wide"               "32"
