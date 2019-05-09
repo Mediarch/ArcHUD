@@ -323,37 +323,6 @@
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
 		
-		"ItemBackground"
-		{
-			"ControlName" "ImagePanel"
-			"fieldName" "ItemBackground"
-			"xpos" "0"
-			"ypos" "0"
-			"zpos" "-1"
-			"wide" "240"
-			"tall" "900"
-			"autoResize" "0"
-			"pinCorner" "0"
-			"visible" "1"
-			"enabled" "1"
-			"fillcolor" "0 0 0 100"
-		}
-		"TitleBackground"
-		{
-			"ControlName" "ImagePanel"
-			"fieldName" "TitleBackground"
-			"xpos" "4"
-			"ypos" "4"
-			"zpos" "-1"
-			"wide" "232"
-			"tall" "14"
-			"autoResize" "0"
-			"pinCorner" "0"
-			"visible" "1"
-			"enabled" "1"
-			"fillcolor" "0 0 0 100"
-		}
-		
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
@@ -365,12 +334,12 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"Cerbetica12"
+			"font"			"DefaultSmall"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"
 			"wide"			"270"
-			"tall"			"16"
+			"tall"			"9"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -381,7 +350,6 @@
 			"brighttext"	"0"
 		}
 	}	
-
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"

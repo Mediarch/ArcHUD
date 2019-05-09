@@ -2,7 +2,7 @@
 {	
 	"HudKothTimeStatus"
 	{
-		if_comp
+		if_match
 		{
 			"zpos"		"5"
 		}
@@ -20,18 +20,10 @@
 		"visible"			"1"
 		"enabled"			"1"
 		
-		if_comp
+		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-.7"
-			"ypos"					"4"
-			"delta_item_x"			"10"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"xpos"			"7"
+			"ypos"			"7"
 		}
 		
 		"TimePanelValue"
@@ -50,15 +42,9 @@
 			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
-			if_comp
+			if_match
 			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"10"
-				"ypos"			"9"
-				"tall"			"10"
-				"wide"			"35"
-				"font"			"HudFontSmall"
+				"font"		"HudFontSmall"
 			}
 		}	
 	}
@@ -82,18 +68,10 @@
 		"delta_lifetime" 	"1.5"
 		"delta_item_font" 	"Cerbetica22"
 		
-		if_comp
+		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.77"
-			"ypos"					"4"
-			"delta_item_x"			"50"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"xpos"			"42"
+			"ypos"			"7"
 		}		
 		
 		"TimePanelValue"
@@ -119,18 +97,9 @@
 			"textAlignment"		"center"
 			"labelText"			"0:00"
 			
-			if_comp
+			if_match
 			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"rs1-15"
-				"ypos"			"9"
-				"wide"			"35"
-				"tall"			"10"
 				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
-			
 			}			
 		}	
 	}

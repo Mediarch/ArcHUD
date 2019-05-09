@@ -364,6 +364,47 @@ event HudLowAmmoPulseStop
     Animate   AmmoNoClip        FgColor     "Ammo In Clip"          Accel 0.0 0.0
 }
 
+//===========================================
+event FlagOutlineHide
+{
+    Animate OutlineImage    Alpha       "0"             Linear 0.0 0.1
+}
+// Local player flag pickup/drop
+//===========================================
+// Spy Disguise
+event HudSpyDisguiseChanged
+{
+    Animate PlayerStatusSpyOutlineImage     Alpha       "0"           Linear 0.0 0.2
+    
+    Animate PlayerStatusSpyOutlineImage     Position    "c-200 c-200"   Linear 0.0 0.2
+    Animate PlayerStatusSpyOutlineImage     Size        "400 400"       Linear 0.0 0.2
+    RunEvent HudSpyDisguiseHide 0.7
+}
+event HudSpyDisguiseHide
+{
+    Animate PlayerStatusSpyOutlineImage     Position    "3 413"         Linear 0.0 0.2
+    Animate PlayerStatusSpyOutlineImage     Size        "55 55"         Linear 0.0 0.2
+    
+    Animate PlayerStatusSpyOutlineImage     Alpha       "0"             Linear 0.2 0.1
+}
+event HudSpyDisguiseFadeIn
+{
+    //RunEvent HudSpyDisguiseChanged    0
+    //Animate PlayerStatusSpyImage          Alpha       "0"           Linear 0.9 0.1  
+    
+    //Uncomment the line below for spy disguise image.
+    Animate PlayerStatusClassImage          Alpha       "0"           Linear 0.0 0.0
+}
+event HudSpyDisguiseFadeOut
+{
+    //RunEvent HudSpyDisguiseChanged    0
+    //Animate PlayerStatusSpyImage          Alpha       "0"             Linear 0.9 0.1  
+    
+    //Uncomment the line below for spy disguise image.
+    Animate PlayerStatusClassImage          Alpha       "0"         Linear 0.0 0.0  
+}
+//===========================================
+
 // Flash the medic charge hud when we have full charge
 
 event UberchargeBg
@@ -398,6 +439,12 @@ event HudMedicCharged
     RunEvent HudMedicChargedBlink       0.0
 }
 
+// call to loop HudHealthBonusPulse
+event HudMedicChargedLoop
+{
+    RunEvent HudMedicChargedBlink 0.0
+}
+
 event HudMedicChargedStop
 {
     StopEvent HudMedicCharged 0.0
@@ -412,33 +459,11 @@ event HudMedicChargedStop
     Animate ChargeMeter4            FgColor     "Uber Bar Color"       Linear 0.0 0.2
 }
 
-// Spy Disguise
-event HudSpyDisguiseChanged
+//===========================================
+event DamagedPlayer
 {
-    Animate PlayerStatusSpyOutlineImage        Alpha        "0"            Linear 0.0 0.2
-    
-    Animate PlayerStatusSpyOutlineImage        Position    "c-350 280"    Linear 0.0 0.2
-    Animate PlayerStatusSpyOutlineImage        Size        "150 150"        Linear 0.0 0.2
-
-    RunEvent HudSpyDisguiseHide    0.7
+    Animate Basiccrosssmall FgColor "255 255 255 255" Linear 0.0 0.1		//change "Basiccrosssmall" to whatever crosshair you use
+    Animate Basiccrosssmall FgColor "0 0 0 0" Linear 0.2 0.200001			//Ditto		
 }
 
-event HudSpyDisguiseHide
-{
-    Animate PlayerStatusSpyOutlineImage        Position    "3 413"            Linear 0.0 0.2
-    Animate PlayerStatusSpyOutlineImage        Size        "55 55"            Linear 0.0 0.2
-    
-    Animate PlayerStatusSpyOutlineImage        Alpha        "0"                Linear 0.2 0.1
-}
-
-event HudSpyDisguiseFadeIn
-{
-    RunEvent HudSpyDisguiseChanged    0
-    Animate PlayerStatusSpyImage            Alpha        "0"            Linear 0.9 0.1    
-}
-
-event HudSpyDisguiseFadeOut
-{
-    RunEvent HudSpyDisguiseChanged    0
-    Animate PlayerStatusSpyImage            Alpha        "0"                Linear 0.9 0.1    
-}
+//===========================================
