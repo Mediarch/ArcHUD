@@ -1263,8 +1263,8 @@
         "IconColor"     "HudWhite"
         "LocalPlayerColor"  "HUDBlack"
 
-		"BaseBackgroundColor"	"46 43 42 175"
-		"LocalBackgroundColor"	"245 229 196 200"
+		"BaseBackgroundColor"	"40 40 40 175"
+		"LocalBackgroundColor"	"220 215 215 230"
     }
 
     HudVehicle

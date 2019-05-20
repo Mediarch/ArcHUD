@@ -4,11 +4,11 @@
     {
         "ControlName"   "ScalableImagePanel"
         "fieldName"     "TimePanelBG"
-        "xpos"          "25"
-        "ypos"          "0"
+        "xpos"          "14"
+        "ypos"          "6"
         "zpos"          "2"
-        "wide"          "50"
-        "tall"          "24"
+        "wide"          "72"
+        "tall"          "13"
         "visible"       "1"
         "enabled"       "1"
         "image"         "../hud/objectives_timepanel_blue_bg"   
@@ -17,11 +17,6 @@
         "src_corner_width" "3"
         "draw_corner_width" "0"
         "draw_corner_height" "0"
-		
-		if_match
-		{
-			"xpos"	"9999"
-		}
     }
     "TimePanelProgressBar"
     {
@@ -55,7 +50,7 @@
         "zpos"          "5"
         "wide"          "50"
         "tall"          "19"
-        "visible"       "0"
+        "visible"       "1"
         "enabled"       "1"
         "labelText"     "#game_WaitingForPlayers"
         "textAlignment"     "center"
@@ -63,11 +58,6 @@
         "brighttext"        "0"
         "wrap"          "0"
         "font"          "Cerbetica12"
-		
-		if_match
-		{
-			"xpos"	"9999"
-		}
     }           
     "WaitingForPlayersBG"
     {
@@ -93,11 +83,11 @@
         "ControlName"       "CExLabel"
         "fieldName"     "OvertimeLabel"
         "xpos"          "25"
-        "ypos"          "33"
+        "ypos"          "21"
         "zpos"          "5"
         "wide"          "50"
         "tall"          "19"
-        "visible"       "0"
+        "visible"       "1"
         "enabled"       "1"
         "labelText"     "#game_Overtime"
         "textAlignment"     "center"
@@ -105,11 +95,6 @@
         "brighttext"        "0"
         "wrap"          "0"
         "font"          "Cerbetica12"
-		
-		if_match
-		{
-			"xpos"	"9999"
-		}
     }           
     "OvertimeBG"
     {
@@ -147,11 +132,6 @@
         "brighttext"        "0"
         "wrap"          "0"
         "font"          "Cerbetica12"
-		
-		if_match
-		{
-			"xpos"	"9999"
-		}
     }           
     "SuddenDeathBG"
     {
@@ -181,7 +161,7 @@
         "zpos"          "5"
         "wide"          "50"
         "tall"          "19"
-        "visible"       "0"
+        "visible"       "1"
         "enabled"       "1"
         "labelText"     "#game_Setup"
         "textAlignment"     "center"
@@ -189,11 +169,6 @@
         "brighttext"        "0"
         "wrap"          "0"
         "font"          "Cerbetica12"
-		
-		if_match
-		{
-			"xpos"	"9999"
-		}
     }   
     "SetupBG"
     {
