@@ -87,7 +87,7 @@
         "labelText"     "2"
         "textAlignment" "center"    
         
-        "fgcolor"       "235 226 202 255"
+        "fgcolor"       "249 135 197 255"
     }
     
     BasicCrossLarge
@@ -2144,9 +2144,9 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-235"
-		"ypos"			"c-85"
+		"ypos"			"c6"
 		"wide"			"470"
-		"tall"			"200"
+		"tall"			"118" //118
 		"PaintBackgroundType"	"0"
 	}
 

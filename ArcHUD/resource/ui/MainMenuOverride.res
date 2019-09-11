@@ -1099,61 +1099,51 @@
 	
 	"HUDVersion"
     {
-        "ControlName"   "EditablePanel"
+        "ControlName"   "CExImageButton"
         "fieldname"     "HUDVersion"
         "xpos"          "c-90"
         "ypos"          "120"
         "zpos"          "1"
         "wide"          "180"
         "tall"          "10"
+		"autoResize"    "0"
+		"pinCorner"     "3"
         "visible"       "1"
+		"enabled"       "1"
+		"tabPosition"   "0"
+		"labelText"     "v1 - It is alive!"
+		"font"          "CerbeticaBold10"
+		"textAlignment" "center"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"      "0"
+		"brighttext"    "0"
+        "default"       "1"
+		"paintbackground"   "0"
         "PaintBackgroundType"   "0"
-        "SubButton"
+
+		"sound_depressed"	""
+		"sound_released"	"UI/dong.wav"
+            
+		"defaultFgColor_override" "Button Color"
+		"armedFgColor_override" "Button Color"
+		"depressedFgColor_override" "Button Color"
+            
+		"image_drawcolor"   "117 107 94 255"
+		"image_armedcolor"  "235 226 202 255"
+
+        "SubImage"
         {
-            "ControlName"   "CExImageButton"
-            "fieldName"     "SubButton"
-            "xpos"          "0"
-            "ypos"          "0"
-            "wide"          "180"
-            "tall"          "10"
-            "autoResize"    "0"
-            "pinCorner"     "3"
+            "ControlName"   "ImagePanel"
+            "fieldName"     "SubImage"
+            "xpos"          "6"
+            "ypos"          "6"
+            "zpos"          "1"
+            "wide"          "14"
+            "tall"          "14"
             "visible"       "1"
             "enabled"       "1"
-            "tabPosition"   "0"
-            "textinsetx"    "0"
-            "use_proportional_insets" "1"
-            "font"          "CerbeticaBold10"
-            "textAlignment" "center"
-            "labelText"     "v1 - It is alive!"
-            "dulltext"      "0"
-            "brighttext"    "0"
-            "default"       "1"
-            
-            "border_default"    ""
-            "border_armed"      ""
-            "paintbackground"   "0"
-            
-            "defaultFgColor_override" "Button Color"
-            "armedFgColor_override" "Button Color"
-            "depressedFgColor_override" "Button Color"
-            
-            "image_drawcolor"   "117 107 94 255"
-            "image_armedcolor"  "235 226 202 255"
-
-            "SubImage"
-            {
-                "ControlName"   "ImagePanel"
-                "fieldName"     "SubImage"
-                "xpos"          "6"
-                "ypos"          "6"
-                "zpos"          "1"
-                "wide"          "14"
-                "tall"          "14"
-                "visible"       "1"
-                "enabled"       "1"
-                "scaleImage"    "1"
-            }
+            "scaleImage"    "1"
         }
     }
 	
@@ -1618,10 +1608,10 @@
         }                       
     }
 	
-	"ScoreboardToggle"
+	"ReloadHud"
     {
         "ControlName"   "CExImageButton"
-        "fieldName"     "ScoreboardToggle"
+        "fieldName"     "ReloadHud"
         "xpos"          "c-90"
         "ypos"          "270"
         "zpos"          "15"
@@ -1632,7 +1622,7 @@
         "visible"       "1"
         "enabled"       "1"
         "tabPosition"   "0"
-        "labelText"     "Scoreboard Toggle"
+        "labelText"     "Reload Hud"
         "font"          "CerbeticaBold16"
         "textAlignment" "center"
         "textinsetx"    "35"
@@ -1641,7 +1631,7 @@
         "brighttext"    "0"
         "default"       "1"
         "paintbackground""0"
-        "Command"       "engine incrementvar cl_hud_minmode 0 1 1"
+        "Command"       "engine hud_reloadscheme"
         
         "defaultFgColor_override" "TanLight"
         "armedFgColor_override" "Button Color"
