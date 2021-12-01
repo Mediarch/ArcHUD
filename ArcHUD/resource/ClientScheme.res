@@ -3947,6 +3947,17 @@ Scheme
                 "outline"    "1"
             }
         }
+		"UberNumber"
+        {
+            "1"
+            {
+                "name"       "Roboto Condensed Bold"
+                "tall"       "16"
+                "additive"   "0"
+                "antialias"  "1"
+                "dropshadow"    "1"
+            }
+        }
         "CerbeticaBoldOutline32"
         {
             "1"

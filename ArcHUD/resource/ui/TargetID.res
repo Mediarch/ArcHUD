@@ -83,7 +83,7 @@
     "tall"                "18"          //24
     "visible"             "1"
     "enabled"             "1"
-    "fillcolor"           "HUDDark"
+    "fillcolor"           "0 0 0 175"
   }
     
     "TargetNameLabel"
@@ -111,7 +111,7 @@
     {   
         "ControlName"       "CExLabel"
         "fieldName"     "TargetDataLabel"
-        "font"          "CerbeticaBold16"
+        "font"          "CerbeticaBold13"
         "xpos"          "82"            //59
         "ypos"          "-5"        //15
         "zpos"          "2"

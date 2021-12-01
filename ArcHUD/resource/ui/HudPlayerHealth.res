@@ -73,11 +73,11 @@
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatusHealthImage"
-        "xpos"          "104"
-        "ypos"          "35"
+        "xpos"          "105"  // 104
+        "ypos"          "36"   // 35
         "zpos"          "4"
-        "wide"          "56"
-        "tall"          "56"
+        "wide"          "54"   // 56
+        "tall"          "54"   // 56
         "fgcolor_override"  "0 0 0 255"
         "visible"       "1"
         "enabled"       "1"

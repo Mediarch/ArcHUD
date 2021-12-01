@@ -79,8 +79,8 @@
 
         "xpos"          "c-101"
         "ypos"          "c-99"
-        "wide"          "200"
-        "tall"          "200"
+        "wide"          "199"
+        "tall"          "199"
 
         "font"          "CrosshairsOutline18"
         "font"          "Crosshairs18"
@@ -1056,9 +1056,9 @@
         "ypos"      "c70"
         "zpos"      "1"
         "wide"      "600"
-        "tall"      "45"
+        "tall"      "50"
         "priority"  "35"
-}
+	}
     
     BuildingStatus_Spy
     {
