@@ -120,7 +120,7 @@ Scheme
         "GreenSolid"         "76 107 34 255"    
         
         "Black"             "46 43 42 255"
-        "TransparentBlack"  "0 0 0 196"
+        "TransparentBlack"  "0 0 0 175"
         "TransparentLightBlack" "0 0 0 90"
         "FooterBGBlack"     "52 48 55 255"
         

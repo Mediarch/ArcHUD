@@ -56,7 +56,7 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"
 	}
@@ -72,7 +72,7 @@
 		"zpos"			"3"
 		"wide"			"80"
 		"tall"			"20"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"Remaining"
@@ -91,7 +91,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"
+		"textAlignment"	"center"	// east
 		"labelText"		"%currency%"
 	}
 	
@@ -108,7 +108,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"center"	// east	
 		"labelText"		"%currency%"
 	}
 }

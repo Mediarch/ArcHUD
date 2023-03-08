@@ -149,7 +149,7 @@
         "visible"       "1"
         "enabled"       "1"
         "scaleImage"    "1"
-        "fillcolor"     "0 0 0 175"
+        "fillcolor"     "TransparentBlack"
     }
 	
 	"Notifications_ShowButtonPanel"
@@ -214,8 +214,8 @@
             "xpos"          "0"
             "ypos"          "0"
             "zpos"          "1"
-            "wide"          "32"
-            "tall"          "32"
+            "wide"          "20"
+            "tall"          "20"
             "autoResize"    "0"
             "pinCorner"     "3"
             "visible"       "1"
